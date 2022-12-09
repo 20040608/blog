@@ -1,0 +1,86 @@
+.Footer {
+  background-color: #fff;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 50px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  &__logo {
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+    text-decoration: none;
+  }
+  &__link {
+    display: flex;
+    flex-direction: column;
+    &__in {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      color: #000;
+    }
+    &__inner {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      text-decoration: none;
+      margin-bottom: 39px;
+      color: #000;
+    }
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    &__item {
+      display: flex;
+      &__button {
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        background-color: #fff;
+        &__in {
+          border: none;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          background-color: #fff;
+          color: #ffa542;
+        }
+        &:hover {
+          color: #ffa542;
+        }
+        &:active {
+          color: #ffa542;
+        }
+      }
+    }
+  }
+  &__inner {
+    display: flex;
+    align-items: baseline;
+    &__img {
+      margin: 0 9px;
+    }
+  }
+
+}
